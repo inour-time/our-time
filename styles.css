@@ -44,7 +44,7 @@ video {
 .heart {
     position: absolute;
     color: rgba(251, 113, 133, 0.3);
-    font-size: 12px;
+    font-size: 8px;
     top: 90%;
     animation: bounce 4s infinite;
 }
