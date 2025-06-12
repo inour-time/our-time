@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Tempo - Contador de Amor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute min-w-full min-h-full object-cover opacity-15"
+        >
+          <source src="public/videos/background-new.mp4" type="video/mp4" />
+        </video>
+    <div class="container">
+        <!-- Floating Hearts Background -->
+        <div class="floating-hearts">
+            <div class="heart heart-1">♥</div>
+            <div class="heart heart-2">♥</div>
+            <div class="heart heart-3">♥</div>
+            <div class="heart heart-4">♥</div>
+            <div class="heart heart-5">♥</div>
+            <div class="heart heart-6">♥</div>
+            <div class="heart heart-7">♥</div>
+            <div class="heart heart-8">♥</div>
+        </div>
+
+        <!-- Sparkle Effects -->
+        <div class="sparkles">
+            <div class="sparkle sparkle-1">✨</div>
+            <div class="sparkle sparkle-2">✨</div>
+            <div class="sparkle sparkle-3">✨</div>
+        </div>
+
+        <div class="content">
+            <!-- Header -->
+            <div class="header">
+                <h1 class="title">
+                    <span class="title-text">Nosso</span>
+                    <span class="title-text">Tempo</span>
+                </h1>
+            </div>
+
+            <!-- Photo Section -->
+            <div class="photo-section">
+                <div class="photo-container">
+                    <div class="photo-glow"></div>
+                    <img src="public/images/euekarina.jpeg" 
+                         alt="Casal apaixonado" class="couple-photo">
+                    <div class="photo-heart">♥</div>
+                </div>
+            </div>
+
+            <!-- Love Message -->
+            <div class="love-message">
+                <p>Sejamos sinceros sempre, pois o óbvio sempre tem de ser dito.</p>
+            </div>
+
+            <!-- Counter Section -->
+            <div class="counter-section">
+                <div class="counter-header">
+                    <div class="counter-title">
+                        <span class="calendar-icon">📅</span>
+                        <h2>Nosso tempo começou há</h2>
+                        <span class="clock-icon">🕐</span>
+                    </div>
+                    <p class="counter-subtitle">Desde 23 de maio de 2025, às 01:14</p>
+                </div>
+
+                <div class="counter-grid">
+                    <div class="counter-item">
+                        <div class="counter-value" id="years">00</div>
+                        <div class="counter-label">ANOS</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" id="months">00</div>
+                        <div class="counter-label">MESES</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" id="days">00</div>
+                        <div class="counter-label">DIAS</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" id="hours">00</div>
+                        <div class="counter-label">HORAS</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" id="minutes">00</div>
+                        <div class="counter-label">MINUTOS</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" id="seconds">00</div>
+                        <div class="counter-label">SEGUNDOS</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Heart -->
+            <div class="bottom-heart">♥</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
