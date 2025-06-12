@@ -44,7 +44,7 @@ video {
 .heart {
     position: absolute;
     color: rgba(251, 113, 133, 0.3);
-    font-size: 8px;
+    font-size: 12px;
     top: 90%;
     animation: bounce 4s infinite;
 }
@@ -177,12 +177,12 @@ video {
 
 .photo-heart {
     position: absolute;
-    top: -8px;
+    top: -9px;
     right: -8px;
     background: rgba(239, 68, 68, 0.9);
     color: white;
-    width: 2rem;
-    height: 2rem;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -267,6 +267,14 @@ video {
 .counter-item:hover {
     transform: scale(1.05);
     background: rgba(55, 65, 81, 0.4);
+}
+
+#special-text {
+    color: #9ca3af;
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .counter-value {
